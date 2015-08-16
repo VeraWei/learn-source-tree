@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>My first d3 animation</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	<style>
+		body{
+			position: relative;
+			max-width: 500px;
+			margin: 0 auto;
+		}
+		.content{
+			position: absolute;
+			width:0;
+			height: 0;
+			background-color: grey;
+			color: wheat;
+			padding-left: 5px;
+		}
+		.myTrip{
+			position: absolute;
+			/*z-index: 1;*/
+			background-color: black;
+		}
+		h1{
+			text-align: center;
+			color: wheat;
+		}
+		h2,p{
+			margin: 0;
+		}
+		p{
+			width: 180px;
+		}
+		circle{
+			cursor: pointer;
+		}
+		a{
+			position: absolute;
+			right: 20px;
+			bottom: 20px;
+			color: wheat;
+		}
+	</style>
+</head>
+<body>
+	<div class="myTrip">
+		<h1>Learning Tree</h1>
+		<a href="http://weiqiuming.com">See More</a>
+	</div>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="tree.js"></script>
+</body>
+</html>
